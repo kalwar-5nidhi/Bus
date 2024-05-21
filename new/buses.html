@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="buses.css">
+</head>
+<header>
+        <a href="hh.html"><button class="back">Back to Dashboard</button></a>
+</header>
+<body>
+    <h1>Bus Booking</h1>
+    <button id="addNew">Add new</button>
+        <button id="addNew">All Buses</button>
+        <button  id="addNew">Trash</button>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Bus Number</th>
+                <th>Route</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="busList"></tbody>
+    </table>
+    <div>
+        <button id="prevPage" disabled>Previous</button>
+        <span id="pagination"></span>
+        <button id="nextPage">Next</button>
+    </div>
+    <script src="buses.js"></script>
+</body>
+</html>
